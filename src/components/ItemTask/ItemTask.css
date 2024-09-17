@@ -1,0 +1,51 @@
+.item-task {
+  width: 120%;
+  height: max-content;
+  margin: 1rem;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid 1px #fff;
+  padding: 1rem;  
+  margin: 10px;
+  border-radius: 20px;
+  background-color: #e6e6e6;
+}
+
+.item-task > .circle-state {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background-color: #ff00eae5;
+}
+
+.item-task > h2 {
+  font-size: 1.5rem;
+  width: 30%;
+  color: #3f3f3c;
+}
+
+.item-task > p {
+  color: #000;
+  font-style: italic;
+  font-size: 1.2rem;
+  text-align: left;
+  width: 30%;
+}
+
+.item-task > input[type=checkbox] {
+  width: 1.5rem;
+  height: 1.5rem;
+  background: transparent;
+}
+
+.checked {
+  text-decoration: line-through;  
+  font-weight: bold; 
+  text-decoration-thickness: 1.5px;
+  text-decoration-color: #ff05d5;
+}
+
+.item-task > .circle-green {
+  background-color: #ec0c0cd2;
+}
